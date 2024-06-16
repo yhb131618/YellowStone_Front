@@ -4,3 +4,4 @@ export default interface favoriteListItem {
     nickname: string;
     profileImage: string | null;
 }
+export { };

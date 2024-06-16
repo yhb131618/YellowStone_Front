@@ -1,4 +1,4 @@
-import { BoardListItem } from "types/interface";
+import type { BoardListItem } from "types/interface";
 
 const latestBoardListMock: BoardListItem[] = [
     {

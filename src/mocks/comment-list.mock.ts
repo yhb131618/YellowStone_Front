@@ -1,4 +1,4 @@
-import { CommentListItem } from "types/interface";
+import type { CommentListItem } from "types/interface";
 
 const commentListMcok : CommentListItem[] = [
   {

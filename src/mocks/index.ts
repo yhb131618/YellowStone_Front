@@ -6,3 +6,4 @@ export {
     commentListMcok, favoriteListMock, latestBoardListMock, top3BoardListMock
 };
 
+    export { };
