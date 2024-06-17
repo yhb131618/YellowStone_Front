@@ -10,7 +10,7 @@
 }
 
 .footer-top {
-    width: 1200px;
+    width: 100%;
 
     display: flex;
     justify-content: space-between;
@@ -79,7 +79,7 @@
 }
 
 .footer-bottom {
-    width: 1200px;
+    width: 100%;
 }
 
 .footer-copyright {

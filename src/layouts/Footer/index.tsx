@@ -1,4 +1,3 @@
-import React from 'react';
 import './style.css';
 
 //          component: 푸터 컴포넌트          //
@@ -21,7 +20,7 @@ export default function Footer() {
           <div className='footer-logo-icon-box'>
             <div className='logo-light-icon'></div>
           </div>
-          <div className='footer-logo-text'>{'Hoons Board'}</div>
+          <div className='footer-logo-text'>{'Yellow Board'}</div>
         </div>
         <div className='footer-link-box'>
           <div className='email-link'>{'email@email.com'}</div>

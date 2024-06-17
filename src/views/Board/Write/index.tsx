@@ -1,7 +1,7 @@
 import './style.css';
 
 //          component: 쓰기 페이지          //
-export default function Wirte() {
+export default function BoardWirte() {
 
   // render: 쓰기
   return (
