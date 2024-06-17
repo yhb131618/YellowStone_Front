@@ -1,6 +1,7 @@
 #header {
     height: 64px;
-
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +9,7 @@
 
 .header-container {
   
-    width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,6 +106,9 @@
     font-weight: 500;
     line-height: 140%;
 }
+
+
+
 
 .mypage-button:hover {
     cursor: pointer;

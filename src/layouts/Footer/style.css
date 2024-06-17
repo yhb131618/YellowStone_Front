@@ -1,6 +1,7 @@
 #footer {
     padding: 40px 0 50px;
-
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,6 +15,7 @@
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer-logo-box {
@@ -61,8 +63,8 @@
 }
 
 .insta-icon {
-    width: 100%;
-    height: 100%;
+    width: 30px;
+    height: 20px;
 
     background-image: url(assets/image/insta-icon.png);
     background-position: 50% 50%;
@@ -70,8 +72,8 @@
 }
 
 .naver-blog-icon {
-    width: 100%;
-    height: 100%;
+    width: 42px;
+    height: 20px;
 
     background-image: url(assets/image/naver-blog-icon.png);
     background-position: 50% 50%;
