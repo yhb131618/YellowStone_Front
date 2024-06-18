@@ -10,10 +10,9 @@ interface Props {
  value: string;
  setValue: Dispatch<React.SetStateAction<string>>;
  error: boolean;
- icon?: string;
- onButtonClick?: () => void;
-
- message?: string;
+ icon?: 'eye-off-icon' | 'eye-on-icon' ;
+onButtonClick?: () => void;
+message?: string;
 
  onKeyDown?: (event: KeyboardEvent<HTMLInputElement>) => void;
 }
@@ -47,7 +46,7 @@ const InputBox = forwardRef<HTMLInputElement, Props>((props: Props, ref) => {
             <div className={error ? 'inputbox-container-error' :'inputbox-container' }>
                <input ref={ref} type={type} className='input' placeholder={placeholder} value={value} onChange={onChangeHanlder}   onKeyDown={ onKeyDown}/>
                {onButtonClick !== undefined && (
-               <div className='icon-button'>
+               <div className='icon-button' onClick={onButtonClick}>
                     {icon !== undefined && ( <div className={`icon ${icon}`}></div>)} 
                </div>
                )}
