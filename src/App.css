@@ -37,3 +37,171 @@
     transform: rotate(360deg);
   }
 }
+
+
+.right-arrow-icon {
+  width: 21px;
+  height: 21px;
+
+  background-image: url(assets/image/right-arrow-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.check-ring-light-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/check-ring-light-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.check-round-fill-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/check-round-fill-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.left-light-icon {
+  width: 100%;
+  height: 100%;
+  
+  background-image: url(assets/image/left-light-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.right-light-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/right-light-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.more-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/more-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.comment-light-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/comment-light-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.down-light-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/down-light-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.up-light-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/up-light-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.favorite-fill-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/favorite-fill-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.favorite-light-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/favorite-light-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.edit-light-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/edit-light-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.image-box-white-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/image-box-white-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.arrow-right-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/arrow-right-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.close-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/close-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.image-box-light-icon {
+  width: 100%;
+  height: 100%;
+
+  background-image: url(assets/image/image-box-light-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.word-badge {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+
+  padding: 4px 20px;
+
+  display: inline-block;
+}
+
+.word-badge:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.emphasis {
+  font-weight: bolder;
+}

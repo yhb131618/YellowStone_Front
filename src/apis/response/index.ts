@@ -1,4 +1,4 @@
-import responseDto from "./response.dto";
-
-export type { responseDto };
-
+export default interface ResponseDto {
+    code: string;
+    message: string;
+}
