@@ -3,6 +3,7 @@ export default interface SignUpReqestDTO {
     password: string;
     nickname: string;
     telNumber: string;
+    address: string;
     addressDetail : string |null;
     agreedPersonal: boolean;
     

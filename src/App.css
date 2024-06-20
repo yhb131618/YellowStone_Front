@@ -205,3 +205,21 @@
 .emphasis {
   font-weight: bolder;
 }
+
+.eye-off-icon {
+  width: 21px;
+  height: 21px;
+
+  background-image: url(assets/image/eye-off-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.eye-on-icon {
+  width: 21px;
+  height: 21px;
+
+  background-image: url(assets/image/eye-on-icon.png);
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
