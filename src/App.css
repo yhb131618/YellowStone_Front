@@ -38,6 +38,25 @@
   }
 }
 
+.icon-button {
+  border-radius: 50% 50%;
+  width: 24px;
+  height: 24px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.icon-box {
+  width: 24px;
+  height: 24px;
+}
 
 .right-arrow-icon {
   width: 21px;
@@ -147,14 +166,7 @@
   background-size: 100% 100%;
 }
 
-.image-box-white-icon {
-  width: 100%;
-  height: 100%;
 
-  background-image: url(assets/image/image-box-white-icon.png);
-  background-position: 50% 50%;
-  background-size: 100% 100%;
-}
 
 .arrow-right-icon {
   width: 100%;
@@ -165,23 +177,8 @@
   background-size: 100% 100%;
 }
 
-.close-icon {
-  width: 100%;
-  height: 100%;
 
-  background-image: url(assets/image/close-icon.png);
-  background-position: 50% 50%;
-  background-size: 100% 100%;
-}
 
-.image-box-light-icon {
-  width: 100%;
-  height: 100%;
-
-  background-image: url(assets/image/image-box-light-icon.png);
-  background-position: 50% 50%;
-  background-size: 100% 100%;
-}
 
 .word-badge {
   border: 1px solid rgba(0, 0, 0, 0.5);

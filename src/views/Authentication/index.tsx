@@ -63,6 +63,18 @@ export default function Authentication() {
    
         }
 
+
+      // event handler: 패스워드 버튼 클릭 이벤트 처리 //
+      const onPasswordButtonClickhandler = () => {
+        if (passwordType === 'password') {
+          setPasswordType('text');
+          setPasswordButtonIcon('eye-on-icon');
+        }
+        if (passwordType === 'text') {
+          setPasswordType('password');
+          setPasswordButtonIcon('eye-off-icon');
+        }
+      }
       //          event handler: 이메일 인풋 key down 이벤트 처리          //
       const onEmailChagneHandler = (event: ChangeEvent<HTMLInputElement>) => {
         setError(false);
@@ -87,17 +99,7 @@ export default function Authentication() {
       const onSignUpLinkClickHandler = () => {
         setView('sign-up');
       }
-      // event Handler: 패스워드 버튼 클릭 이벤트 처리  //
-      const onPasswordCheckButtonClickHandler = () => {
-        if (passwordType === 'text') {
-          setPasswordType('password');
-          setPasswordButtonIcon('eye-off-icon');
-        }
-        if (passwordType === 'password') {
-          setPasswordType('text');
-          setPasswordButtonIcon('eye-on-icon');
-        }
-      }
+  
       //          event handler: 이메일 인풋 key down 이벤트 처리          //
       const onEmailKeyDownHandler = (event: KeyboardEvent<HTMLInputElement>) => {
         if (event.key !== 'Enter') return;
@@ -120,7 +122,7 @@ export default function Authentication() {
                 </div>
                 <InputBox ref={emailRef} label='이메일 주소' type='text' placeholder='이메일 주소를 입력해주세요.' error={error} value={email} onChange={onEmailChagneHandler} onKeyDown={onEmailKeyDownHandler} />
 
-                <InputBox ref={passwordRef} label='비밀번호' type={passwordType} placeholder='비밀번호를 입력해주세요.' error={error} value={password} onChange={onPasswordChangeHandler} icon={passwordButtonIcon} onKeyDown={onPasswordKeyDownHanlder}  />
+                <InputBox ref={passwordRef} label='비밀번호' type={passwordType} placeholder='비밀번호를 입력해주세요.' error={error} value={password} onChange={onPasswordChangeHandler} icon={passwordButtonIcon} onButtonClick={onPasswordButtonClickhandler} onKeyDown={onPasswordKeyDownHanlder}  />
              </div>
              <div className='auth-card-bottom'>
              {error && (

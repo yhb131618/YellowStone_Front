@@ -1,6 +1,6 @@
 export default interface LoginUser {
   email: string;
-  nickName: string;
+  nickname: string;
   profileImage: string |null;
 };
 
